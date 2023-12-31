@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-wrapper{
+    width: 600px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+select , button , input{
+    padding:10px
+}
+#description{
+    padding: 10px;
+}
+button{
+    cursor: pointer ;
+}
